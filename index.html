@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>skilled-elearning-landing-page</title>
+    <style>
+      .card {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        background-color: #f0f1ff;
+      }
+      .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 13%;
+        padding-top: 1%;
+      }
+      .cont2{
+        padding-left: 5%;
+      }
+
+      .started {
+        display: flex;
+        justify-content: center;
+        width: 140px;
+        background-color: #13183f;
+        border-radius: 28px;
+      }
+      .st {
+        font-size: 16px;
+        color: white;
+      }
+      .line-1 {
+        font-size: 40px;
+        color: #13183f;
+      }
+
+      .our {
+        display: inline;
+        font-size: 16px;
+        color: #83869a;
+      }
+
+      .get-started {
+        display: flex;
+        justify-content: center;
+        width: 167px;
+        background-color: #f02aa6;
+        border-radius: 28px;
+      }
+      .ga {
+        color: white;
+        font-size: 16px;
+      }
+      .desktop{
+        display: none;
+      }
+      .hero-mobile {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .hero-mobile-tablet{
+        display: none;
+      }
+      .card-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5%;
+        padding-left: 5%;
+
+      }
+
+      .check-out {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 343px;
+        height: 120px;
+        background-color: rgb(240, 42, 166);
+        border-radius: 10px;
+      }
+      .check {
+        color: white;
+        font-size: 24px;
+      }
+      .small-icon {
+        margin-bottom: -28px;
+      }
+      .box {
+        width: 343px;
+        height: 259px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+      }
+      .lern {
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #83869a;
+      }
+      .get {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: #f74780;
+      }
+      .box-top-word {
+        font-family: sans-serif;
+        font-size: 20px;
+        color: #13183f;
+      }
+      
+      .last-box {
+        
+        height: 120px;
+        background-color: #13183f;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      .bott {
+        width: 140px;
+        display: grid;
+        justify-items: center;
+        background-color: #f02aa6;
+        border-radius: 28px;
+      }
+      .gg {
+        
+        color: white;
+        font-size: 16px;
+      }
+      @media screen and (min-width: 766px){
+        .animation{
+          width: 45%;
+        }
+        .design{
+          width: 45%;
+        }
+        .photography{
+          width:45%;
+        }
+        .crypto{
+          width:45%;
+        }
+        .business{
+          width: 45%;
+        }
+        .desktop{
+          display: none;
+        }
+
+        
+        
+        .cont1{
+          display: flex;
+          flex-direction: column;
+        }
+        .hero-mobile{
+          display: none;
+        }
+        .hero-mobile-tablet{
+          display: inline;
+          max-width: 100%;
+        }
+        .hero-tablet{
+          display: inline;
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        left:57%;
+        top:-10%;
+        
+        
+        }
+      
+        .card-2{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction:row;
+          justify-content: space-evenly;
+        }
+        .check-out{
+          width: 339px;
+          height: 259px;
+        }
+        .that{
+          padding-top: 5%;
+          width: 45%;
+          height: 259px;
+        }
+        
+      }
+      @media screen and (min-width: 1440px){
+       .cont2{
+         width: 50%;
+         height: 400px;
+         display: flex;
+         align-items: center
+       }
+       .hero-tablet{
+         display: none;
+        position: absolute;
+        left:70%;
+        top:-15%;
+       }
+       .desktop{
+         width: 650px;
+         height: 600px;
+         display: inline;
+         position: absolute;
+        left:72%;
+        top:-12%;
+       }
+       .hero-desktop{
+         max-width: 100%;
+       }
+       
+       .check-out{
+         whith:350px;
+         
+       }
+        .that{
+          width: 33%;
+          height: 322px;
+        }
+      .animation{
+        width: 33%;
+        height: 322;
+        }
+        .design{
+          width: 33%;
+        height: 322;
+        }
+        .photography{
+          width: 33%;
+        height: 322;
+        }
+        .crypto{
+          width: 33%;
+        height: 322;
+        }
+        .business{
+          width: 33%;
+        height: 322;
+        }
+        .cont1{
+          widows: 400px;
+          
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="top">
+        <div><img class="logo-dark" src="./logo-dark.svg" /></div>
+        <div class="started">
+          <h2 class="st">Get Started</h2>
+        </div>
+      </div>
+   <div class="cont2">
+      <div class="cont1">
+        <h1 class="line-1">
+          Maximize skill,<br />
+          minimize budget
+        </h1>
+      
+        <h2 class="our">
+          our moderrn courceacross a range of<br>
+           in-demond skills will give you the knowledge<br>
+           you need to live the life you want.
+        </h2>
+      <div class="padd">
+        <div class="get-started">
+          <h2 class="ga">Get started</h2>
+        </div>
+      </div>
+    </div>
+      
+        <img class="hero-mobile" src="./image-hero-mobile.png" />
+        <div class="hero-tablet">
+        <img class="hero-mobile-tablet" src="./image-hero-tablet.png">
+        </div>
+      </div>
+      <div class="desktop">
+          <img class="hero-desktop" src="./image-hero-desktop.png">
+      </div>
+      <div class="card-2">
+      <div class="that">
+        <div class="check-out">
+          <h2 class="check">
+            Check out ouar most<br />
+            popular course!
+          </h2>
+        </div>
+      </div>
+      <div class="animation">
+        <img class="small-icon" src="./icon-animation.svg" />
+        <div class="box">
+          <h2 class="box-top-word">Animation</h2>
+          <h2 class="lern">
+            Lern the latestanimation teqnuiqs<br />
+            to create stuning moshen design and<br />
+            captivate your audience.
+          </h2>
+          <h2 class="get">Get Started</h2>
+        </div>
+      </div>
+      <div class="design">
+        <img class="small-icon" src="./icon-design.svg" />
+        <div class="box">
+          <h2 class="box-top-word">Design</h2>
+          <h3 class="lern">
+            Create beautiful,usable interface to<br />
+            help hape the future of how the web<br />
+            looks.
+          </h3>
+          <h2 class="get">Get Started</h2>
+        </div>
+      </div>
+      <div class="photography">
+        <img class="small-icon" src="./icon-photography.svg" />
+        <div class="box">
+          <h2 class="box-top-word">photography</h2>
+          <h2 class="lern">
+            Exsplore critical fundamentals like<br />
+            lighting, composition, and focus to<br />
+            capture exceptional photos.
+          </h2>
+          <h2 class="get">Get Started</h2>
+        </div>
+      </div>
+      <div class="crypto">
+        <img class="small-icon" src="./icon-crypto.svg" />
+        <div class="box">
+          <h2 class="box-top-word">crypto</h2>
+          <h2 class="lern">
+            All you need to know to get started<br />
+            investing in crypto.Go from beginner<br />
+            to advanced whith this 54 houar cource
+          </h2>
+          <h2 class="get">Get Started</h2>
+        </div>
+      </div>
+      <div class="business">
+        <img class="small-icon" src="./icon-business.svg" />
+        <div class="box">
+          <h2 class="box-top-word">Business</h2>
+          <h2 class="lern">
+            A step-by-step playbook to help you<br />
+            start, scale,and sustain your busness<br />
+            without outside investment.
+          </h>
+          <h2 class="get">Get started</h2>
+        </div>
+      </div>
+    </div>
+      <div class="last-box">
+        <img class="light-logo" src="./logo-light.svg" />
+        <div class="bott">
+          <h2 class="gg">Get Started</h2>
+        </div>
+      </div>
+    
+    </div>
+  </body>
+</html>
